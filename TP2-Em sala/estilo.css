@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+    margin: 0%;
+}
+
+#botaoMenu {
+    width: 6%;
+    padding-bottom: 10%;
+    padding-left: 6%;
+    padding-right: 0.2%;
+}
+/*novo Ana - REVISAR */
+#botaoMenu:hover {
+    width: 5%;
+}
+
+#botaoPrincipal {
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 17%;
+}
+
+#botaoInfo {
+    width: 4%;
+    padding-bottom: 10%;
+    padding-left: 0.2%;
+}
+/*novo Ana */
+#botaoInfo:hover {
+    width: 3%;
+}
+
+#bonequinho1{
+    width: 25%;
+    float: left;
+}
+
+#bonequinho2 {
+    width: 20%;
+    float: right;
+}
+/*novo Ana */
+h1{
+    font-size: 510%;
+    font-family: 'Homemade Apple', cursive;
+    display: flex;
+    justify-content: center;
+    transition:transform .2s cubic-bezier(.37,1.89,.59,.73);
+}
+
+h1:hover {
+    transform: scale(1.2);
+  }
+
+.menuInicio{
+    background-color: aqua;
+}
